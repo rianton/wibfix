@@ -1,4 +1,41 @@
+#Tolong Jangan Ganti Creator Hargai Yang Membuat
+import LINETCR
+from LINETCR.lib.curve.ttypes import *
+from datetime import datetime
+from bs4 import BeautifulSoup
+import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, urllib2, wikipedia,tempfile,glob,shutil,unicodedata,goslate
+from gtts import gTTS
 
+
+cl = LINETCR.LINE()
+cl.login(token="EopxlGUaTxY2kBlfN9A0.1InGNGZn7NNY7fUrZGx9ua.UfOImWIBt/YBH9Tvw3k0vF0OhteAZK0jMGOfjrGNNXY=")
+cl.loginResult()
+
+kt = LINETCR.LINE()
+kt.login(token="EogZ0YwAI3By9i6jjTt7.avnzqOTQntgFkB+/jodCLW.TBt5qQXQ7xq+CCXsfpwxfyMLyrYqChOfb4qwZvsFeIo=")
+kt.loginResult()
+
+ks = LINETCR.LINE()
+ks.login(token="EopP5w83zP4ByTmx1pV3.A+SYHpfmOT4uDbrwN7S4CW.93i0kpsFakakyrHmncNPW0/AUvZ0iHHZKLqXGcdE9m0=")
+ks.loginResult()
+
+ki = LINETCR.LINE()
+ki.login(token="Eofcf0oFHyS2YkfaOwYa.sInuoTkVfNhUjQU4KarLUG.8Gn5ev51r7L++XIPqOyAX3J7jkNhCF0O9DUPq3v88c8=")
+ki.loginResult()
+
+kk = LINETCR.LINE()
+kk.login(token="EonpavFuyNA4Maz85kSe.8OCv7eAgFOIywa6B/lsWlG.Rwgb1KZ8f9ywfcd13XyuQN4h/i3y3E73g9dhMcG8ZV0=")
+kk.loginResult()
+
+kc = LINETCR.LINE()
+kc.login(token="EoLmyQch90U9NioyEMS0.B8vxriASm6+uB38nHjfgma.kZv2yQAVwGz0rS3MR8D1SI9Z7vCVGC4bwWZ7JfD3+0o=")
+kc.loginResult()
+
+kl = LINETCR.LINE()
+kl.login(token="EoTlS5nksaNWhxHL5OSb.jd1h+vbUYLjvszUFzf1zwW.99ylTDgq3Ck4B9f+8014YtjbScma7iNkk0k6TGZAgsQ=")
+kl.loginResult()
+
+print "=============SHINGAMI-TEAM============="
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
